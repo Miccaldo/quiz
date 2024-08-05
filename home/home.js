@@ -1,25 +1,24 @@
 const questions = [
     {   
         type: "HTML",
-        link: 'html/html.html'
+        link: '/html/index.html'
     },
     {   
         type: "JS",
-        link: 'js/js.html'
+        link: '/js/index.html'
     },
     {   
         type: "CSS",
-        link: 'css/css.html'
+        link: '/css/index.html'
     },
     {   
         type: "Accessibility",
-        link: 'accessibility/accessibility.html'
+        link: '/accessibility/index.html'
     }
 ]
 
 const initQuestions = () => {
     return {
-        questions,
-        opened: false
+        questions
     }
 }

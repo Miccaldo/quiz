@@ -1,5 +1,4 @@
 tailwind.config = {
-    content: ['/questions/questions.html'],
     theme: {
         extend: {
           colors: {
